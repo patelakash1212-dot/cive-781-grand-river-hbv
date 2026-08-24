@@ -1,0 +1,30 @@
+#----------------------------------------------
+# This is a Raven lake rvh file generated
+# by BasinMaker v2.0
+#----------------------------------------------
+#############################################
+# New Lake starts
+#############################################
+:Reservoir   Lake_9027
+  :SubBasinID  90010647
+  :HRUID   5
+  :Type RESROUTE_STANDARD   
+  :WeirCoefficient  0.6
+  :CrestWidth    11.9126
+  :MaxDepth 2.0
+  :LakeArea    11446188.81338353
+  :SeepageParameters   0   0 
+:EndReservoir   
+#############################################
+# New Lake starts
+#############################################
+:Reservoir   Lake_110809
+  :SubBasinID  90014270
+  :HRUID   33
+  :Type RESROUTE_STANDARD   
+  :WeirCoefficient  0.6
+  :CrestWidth    46.5549
+  :MaxDepth 11.0
+  :LakeArea    5551367.611993161
+  :SeepageParameters   0   0 
+:EndReservoir   

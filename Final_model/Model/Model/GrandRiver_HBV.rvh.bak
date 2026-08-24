@@ -1,0 +1,47 @@
+# ------------------------------------------------------------
+# Grand River below Shand Dam - Raven HRU/Basin Definition File
+# Outlet gauge: WSC 02GA016
+# One subbasin with six land-cover-based HRUs
+# Total modelled area: 791.781258 km2
+# ------------------------------------------------------------
+
+:SubBasins
+  :Attributes, NAME, DOWNSTREAM_ID, PROFILE, REACH_LENGTH, GAUGED
+  :Units,      none, none,          none,    km,           none
+  1, GRAND_RIVER_BELOW_SHAND_DAM, -1, none, _AUTO, 1
+:EndSubBasins
+
+:HRUs
+  :Attributes, AREA, ELEVATION, LATITUDE, LONGITUDE, BASIN_ID, LAND_USE_CLASS, VEG_CLASS, SOIL_PROFILE, AQUIFER_PROFILE, TERRAIN_CLASS, SLOPE, ASPECT
+  :Units,      km2,  m,         deg,      deg,       none,     none,           none,      none,         none,            none,          ratio,   degN
+  1, 145.210000, 484.65, 43.986531, -80.314992, 1, FOREST,      FOREST_VEG,  DEFAULT_P, [NONE], [NONE], 0.014352, 0.0
+  2, 552.031258, 484.65, 43.986531, -80.314992, 1, AGRICULTURE, CROP_VEG,    DEFAULT_P, [NONE], [NONE], 0.014352, 0.0
+  3,  28.500000, 484.65, 43.986531, -80.314992, 1, WETLAND,     WETLAND_VEG, DEFAULT_P, [NONE], [NONE], 0.014352, 0.0
+  4,  42.680000, 484.65, 43.986531, -80.314992, 1, URBAN,       URBAN_VEG,   DEFAULT_P, [NONE], [NONE], 0.014352, 0.0
+  5,  22.090000, 484.65, 43.986531, -80.314992, 1, WATER,       WATER_VEG,   DEFAULT_P, [NONE], [NONE], 0.014352, 0.0
+  6,   1.270000, 484.65, 43.986531, -80.314992, 1, BARREN,      BARREN_VEG,  DEFAULT_P, [NONE], [NONE], 0.014352, 0.0
+:EndHRUs
+
+:HRUGroup FOREST_HRUS
+  1
+:EndHRUGroup
+
+:HRUGroup AGRICULTURE_HRUS
+  2
+:EndHRUGroup
+
+:HRUGroup WETLAND_HRUS
+  3
+:EndHRUGroup
+
+:HRUGroup URBAN_HRUS
+  4
+:EndHRUGroup
+
+:HRUGroup WATER_HRUS
+  5
+:EndHRUGroup
+
+:HRUGroup BARREN_HRUS
+  6
+:EndHRUGroup

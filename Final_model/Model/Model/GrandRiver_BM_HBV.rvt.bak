@@ -1,0 +1,18 @@
+# meteorological forcings
+:Gauge
+  :Latitude               43.73
+  :Longitude             -80.33
+  :Elevation              417.60     
+
+  :RainCorrection         1   # HBV_PAR_20 == RFCF
+  :SnowCorrection         1   # HBV_PAR_21 == SFCF
+
+   #                       Jan    Feb    Mar    Apr    May    Jun    Jul    Aug    Sep    Oct    Nov    Dec
+  :MonthlyAveEvaporation, 0.087, 0.134, 0.463, 1.398, 2.941, 3.928,4.206, 3.594, 2.456, 1.214, 0.424, 0.166,
+  :MonthlyAveTemperature,  -6.686, -6.798, -1.774, 5.062, 13.231, 18.065, 20.515, 19.772, 16.245, 9.437, 2.036, -2.335,
+  
+  :RedirectToFile data_obs/GrandRiver_meteo_daily.rvt
+:EndGauge
+
+# observed streamflow
+:RedirectToFile data_obs/GrandRiver_Qobs_daily.rvt

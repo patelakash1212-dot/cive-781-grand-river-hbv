@@ -1,0 +1,226 @@
+        1 file(s) copied.
+============================================================
+                        RAVEN                               
+ a robust semi-distributed hydrological modelling framework 
+    Copyright 2008-2025, the Raven Development Team 
+                    Version 4.1
+                BuildDate Dec  8 2025
+============================================================
+Generating Master Parameter List...
+Autocalculating Model Parameters...
+...done Autocalculating.
+Checking for Required Model Parameters...
+...Done Checking
+...model input successfully parsed
+
+======================================================
+Initializing Model...
+  Generating Gauge Interpolation Weights...
+  Calculating basin & watershed areas...
+  Calculating routing network topology...
+  Initializing Basins, calculating watershed area, setting initial flow conditions...
+  Calculating initial system water storage...
+==MODEL SUMMARY=======================================
+       Model Run: 
+      Start time: 2013-01-01
+        End time: 2024-01-01 (duration=4017 days)
+    rvi filename: GrandRiver_BM_HBV.rvi
+Output Directory: output/
+     # SubBasins: 18 (2 reservoirs) (0 disabled)
+          # HRUs: 44 (0 disabled)
+        # Gauges: 1
+#State Variables: 14
+                - Surface Water (SURFACE_WATER)
+                - Cum. Losses to Atmosphere (ATMOSPHERE)
+                - Cum. Precipitation (ATMOS_PRECIP)
+                - Ponded Water (PONDED_WATER)
+                - Runoff (RUNOFF)
+                - Soil Water[0] (SOIL[0])
+                - Soil Water[1] (SOIL[1])
+                - Soil Water[2] (SOIL[2])
+                - Snow Melt (Liquid) (SNOW_LIQ)
+                - Snow (SNOW)
+                - Canopy (CANOPY)
+                - Actual Evapotranspiration (AET)
+                - Canopy Snow (CANOPY_SNOW)
+                - Total SWE (TOTAL_SWE)
+     # Processes: 14
+                - Snow Refreeze
+                - Precipitation
+                - Canopy Evaporation
+                - Canopy Snow Sublimation
+                - Snow Balance
+                - Overflow
+                - Infiltration
+                - Flush
+                - Soil Evaporation
+                - Capillary Rise
+                - Lake Evaporation
+                - Percolation
+                - Baseflow
+                - Baseflow
+    #Connections: 31
+#Lat.Connections: 0
+        Duration: 4017 d
+       Time step: 1 d (1440 min)
+  Watershed Area: 780.012 km2 (simulated) of 780.012 km2
+======================================================
+
+*******************************************************
+
+WARNING: Warnings have been issued while parsing data. 
+         See Raven_errors.txt for details              
+
+*******************************************************
+
+
+======================================================
+Simulation Start...
+2013-01-01
+2013-02-01
+2013-03-01
+2013-04-01
+2013-05-01
+2013-06-01
+2013-07-01
+2013-08-01
+2013-09-01
+2013-10-01
+2013-11-01
+2013-12-01
+2014-01-01
+2014-02-01
+2014-03-01
+2014-04-01
+2014-05-01
+2014-06-01
+2014-07-01
+2014-08-01
+2014-09-01
+2014-10-01
+2014-11-01
+2014-12-01
+2015-01-01
+2015-02-01
+2015-03-01
+2015-04-01
+2015-05-01
+2015-06-01
+2015-07-01
+2015-08-01
+2015-09-01
+2015-10-01
+2015-11-01
+2015-12-01
+2016-01-01
+2016-02-01
+2016-03-01
+2016-04-01
+2016-05-01
+2016-06-01
+2016-07-01
+2016-08-01
+2016-09-01
+2016-10-01
+2016-11-01
+2016-12-01
+2017-01-01
+2017-02-01
+2017-03-01
+2017-04-01
+2017-05-01
+2017-06-01
+2017-07-01
+2017-08-01
+2017-09-01
+2017-10-01
+2017-11-01
+2017-12-01
+2018-01-01
+2018-02-01
+2018-03-01
+2018-04-01
+2018-05-01
+2018-06-01
+2018-07-01
+2018-08-01
+2018-09-01
+2018-10-01
+2018-11-01
+2018-12-01
+2019-01-01
+2019-02-01
+2019-03-01
+2019-04-01
+2019-05-01
+2019-06-01
+2019-07-01
+2019-08-01
+2019-09-01
+2019-10-01
+2019-11-01
+2019-12-01
+2020-01-01
+2020-02-01
+2020-03-01
+2020-04-01
+2020-05-01
+2020-06-01
+2020-07-01
+2020-08-01
+2020-09-01
+2020-10-01
+2020-11-01
+2020-12-01
+2021-01-01
+2021-02-01
+2021-03-01
+2021-04-01
+2021-05-01
+2021-06-01
+2021-07-01
+2021-08-01
+2021-09-01
+2021-10-01
+2021-11-01
+2021-12-01
+2022-01-01
+2022-02-01
+2022-03-01
+2022-04-01
+2022-05-01
+2022-06-01
+2022-07-01
+2022-08-01
+2022-09-01
+2022-10-01
+2022-11-01
+2022-12-01
+2023-01-01
+2023-02-01
+2023-03-01
+2023-04-01
+2023-05-01
+2023-06-01
+2023-07-01
+2023-08-01
+2023-09-01
+2023-10-01
+2023-11-01
+2023-12-01
+2024-01-01
+======================================================
+...Raven Simulation Complete: 
+    Parsing & initialization: 0.066 seconds elapsed . 
+                  Simulation: 46.13 seconds elapsed . 
+  Output written to output/
+======================================================
+
+
+============== Exiting Gracefully ==========================
+Exiting Gracefully: Successful Simulation
+============================================================
+============================================================
+Signed PBIAS: -34.5472
+Absolute PBIAS: 34.5472
+Created: .\Model\output\Absolute_PBIAS.txt

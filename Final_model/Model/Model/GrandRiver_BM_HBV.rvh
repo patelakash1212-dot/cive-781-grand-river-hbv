@@ -1,0 +1,156 @@
+#----------------------------------------------
+# This is a Raven HRU rvh input file generated
+# by BasinMaker v3.1
+#----------------------------------------------
+:SubBasins
+  :Attributes   NAME  DOWNSTREAM_ID       PROFILE REACH_LENGTH  GAUGED
+  :Units        none           none          none           km    none
+  90010647     sub90010647     90011484     Chn_ZERO_LENGTH     ZERO-     0
+  90010574     sub90010574     90014273     Chn_ZERO_LENGTH     ZERO-     0
+  90010806     sub90010806     90013181     Chn_ZERO_LENGTH     ZERO-     0
+  90010572     02GA041     90012669     Chn_ZERO_LENGTH     ZERO-     1
+  90011484     sub90011484     90013481     Chn_90011484         7.0326     0
+  90012669     sub90012669     90013181     Chn_90012669        21.7297     0
+  90012657     02GA-19     90014227     Chn_ZERO_LENGTH     ZERO-     1
+  90013181     02GA-17     90013285     Chn_90013181         2.9430     1
+  90013285     sub90013285     90013481     Chn_90013285         6.2028     0
+  90013481     16018409002     90013907     Chn_90013481         0.9832     1
+  90013907     02GA-13     90013941     Chn_90013907        11.8380     1
+  90013941     sub90013941     90014227     Chn_90013941         5.2215     0
+  90014227     02GA022     90014226     Chn_90014227         0.0900     1
+  90014226     16018406702&02GA014     90014260     Chn_90014226         3.7386     1
+  90014260     sub90014260     90014273     Chn_90014260         4.8781     0
+  90014273     02GA027     90014272     Chn_90014273         0.3040     1
+  90014272     02GA001     90014270     Chn_90014272         2.7727     1
+  90014270     02GA016     -1     Chn_ZERO_LENGTH     ZERO-     1
+:EndSubBasins
+
+
+:HRUs
+  :Attributes AREA ELEVATION  LATITUDE  LONGITUDE   BASIN_ID  LAND_USE_CLASS  VEG_CLASS   SOIL_PROFILE  AQUIFER_PROFILE   TERRAIN_CLASS   SLOPE   ASPECT
+  :Units       km2         m       deg        deg       none            none       none           none             none            none     deg      deg
+  5        11.4462       470.2267        43.9390       -80.4258     90010647     LAKE     LAKE     LAKE     [NONE]     [NONE]       0.840474     181.47841242661448     
+  6        24.8270       468.0403        43.9426       -80.4378     90010647     FOREST     FOREST     SAND     [NONE]     [NONE]       5.083133     185.58838474414156     
+  7        10.9133       465.9630        43.9447       -80.4592     90010647     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       9.488609     212.09141136576238     
+  3         7.5692       469.8522        43.8495       -80.2342     90010574     FOREST     FOREST     SAND     [NONE]     [NONE]       1.102250     139.9033381364073     
+  4        45.0884       462.7337        43.8416       -80.2294     90010574     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       5.065759     154.9389589169001     
+  8        35.5879       494.0716        44.1095       -80.3039     90010806     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       4.709539     165.7444526627219     
+  9        18.1001       488.9427        44.0572       -80.3515     90010806     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       0.440137     141.0429241435563     
+  1         8.5963       509.7652        44.1848       -80.3011     90010572     FOREST     FOREST     SAND     [NONE]     [NONE]       3.458557     173.8690101908066     
+  2        59.2563       504.9769        44.1756       -80.3236     90010572     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       3.662866     179.0621682254803     
+  10         9.1812       481.8056        43.9904       -80.4257     90011484     FOREST     FOREST     SAND     [NONE]     [NONE]       2.262504     182.94018489813996     
+  11        41.9327       473.7876        43.9866       -80.4107     90011484     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       4.159011     185.5397144039735     
+  14         4.9797       493.8514        44.1401       -80.3797     90012669     FOREST     FOREST     SAND     [NONE]     [NONE]       6.184685     163.4426909722222     
+  15         7.1607       488.1487        44.0618       -80.3985     90012669     FOREST     FOREST     SAND     [NONE]     [NONE]       1.869997     205.4630681818182     
+  16        36.1282       486.7926        44.1425       -80.3730     90012669     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       7.117798     165.177322969087     
+  17        28.1287       482.0477        44.0730       -80.3909     90012669     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       3.636249     191.35413761041377     
+  12        27.4336       481.4600        43.9715       -80.2290     90012657     FOREST     FOREST     SAND     [NONE]     [NONE]       1.550834     175.9879923491074     
+  13       156.4966       475.5990        43.9732       -80.2275     90012657     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       4.048777     176.64612626874012     
+  18         1.1208       485.4242        44.0271       -80.3948     90013181     FOREST     FOREST     SAND     [NONE]     [NONE]       0.745567     180.91841856060606     
+  19         8.3005       484.4660        44.0242       -80.3965     90013181     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       0.499584     190.48608903020667     
+  20        52.5985       486.8350        44.0278       -80.3318     90013285     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       0.964926     177.3607296615202     
+  21         0.6192       471.1404        43.9711       -80.3583     90013481     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       0.884252     197.81640625     
+  22         9.2152       478.7676        43.9607       -80.3223     90013907     FOREST     FOREST     SAND     [NONE]     [NONE]       0.765833     182.07662192393735     
+  23        63.1369       478.5035        43.9475       -80.3226     90013907     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       0.696351     179.02572093290442     
+  24         6.6665       475.2084        43.9020       -80.3747     90013941     FOREST     FOREST     SAND     [NONE]     [NONE]       0.612680     201.77015186915887     
+  25        30.9208       471.8514        43.8863       -80.3346     90013941     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       0.928271     192.2929389312977     
+  30         0.0018       448.0000        43.8918       -80.2836     90014227     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       0.865839     309.8055725097656     
+  31         0.0036       449.0000        43.8920       -80.2842     90014227     URBAN     NO_VEG     SAND     [NONE]     [NONE]       1.536189     304.1506042480469     
+  26         0.7178       469.4706        43.8838       -80.2556     90014226     FOREST     FOREST     SAND     [NONE]     [NONE]       1.086672     165.86000397245763     
+  27         0.6594       449.7983        43.8717       -80.2742     90014226     FOREST     FOREST     SAND     [NONE]     [NONE]       2.657950     194.22872899159663     
+  28         9.0470       468.4325        43.8768       -80.2625     90014226     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       1.072452     170.64611663179917     
+  29         2.3799       454.2451        43.8758       -80.2736     90014226     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       2.210191     185.37884545233464     
+  32        24.9904       453.8005        43.8562       -80.3280     90014260     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       6.149867     191.0786284307876     
+  44         0.0422       440.5000        43.8306       -80.2989     90014273     FOREST     FOREST     SAND     [NONE]     [NONE]       3.908264     248.0277608235677     
+  45         0.0045       465.0000        43.8291       -80.3029     90014273     FOREST     FOREST     SAND     [NONE]     [NONE]       2.273688     288.1334762573242     
+  46         0.0979       440.2500        43.8302       -80.2996     90014273     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       3.857778     244.02831268310547     
+  47         0.0952       466.2143        43.8287       -80.3046     90014273     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       1.737364     266.9993983677455     
+  40         0.7141       446.1146        43.8073       -80.2870     90014272     FOREST     FOREST     SAND     [NONE]     [NONE]       3.649909     148.84728304140128     
+  41         2.1719       447.9250        43.8109       -80.2922     90014272     FOREST     FOREST     SAND     [NONE]     [NONE]       2.000055     161.46932198660716     
+  42         6.2473       443.1486        43.8173       -80.2984     90014272     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       8.844409     182.43201401654412     
+  43         3.9846       449.5831        43.8142       -80.2932     90014272     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]       2.096227     153.29310993975903     
+  33         5.5514       397.5573        43.7596       -80.3346     90014270     LAKE     LAKE     LAKE     [NONE]     [NONE]       4.110114     176.3266360706278     
+  34         4.2976       422.1882        43.7812       -80.3176     90014270     FOREST     FOREST     SAND     [NONE]     [NONE]      10.556337     156.06629392971246     
+  36        11.8168       414.6640        43.7871       -80.3117     90014270     AGRICULTURE     AGRICULTURE     SAND     [NONE]     [NONE]      13.924298     156.65164386584289     
+  38         1.7837       411.2896        43.7787       -80.3200     90014270     URBAN     NO_VEG     SAND     [NONE]     [NONE]      14.309723     164.2578318858561     
+:EndHRUs
+:RedirectToFile Lakes.rvh
+:SubBasinGroup   Allsubbasins
+       90010647   90010574   90010806   90010572   90011484   90012669   90012657   90013181   90013285   90013481
+       90013907   90013941   90014227   90014226   90014260   90014273   90014272   90014270
+:EndSubBasinGroup   
+:SubBasinGroup   AllLakesubbasins
+       90010647   90014270
+:EndSubBasinGroup   
+
+
+#:SubBasinGroup  Upstream_02GA041
+#       90010572
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_02GA041
+
+
+#:SubBasinGroup  Upstream_02GA-19
+#       90012657
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_02GA-19
+
+
+#:SubBasinGroup  Upstream_02GA-17
+#       90010572   90010806   90012669   90013181
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_02GA-17
+
+
+#:SubBasinGroup  Upstream_16018409002
+#       90010572   90010647   90010806   90011484   90012669   90013181   90013285   90013481
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_16018409002
+
+
+#:SubBasinGroup  Upstream_02GA-13
+#       90010572   90010647   90010806   90011484   90012669   90013181   90013285   90013481   90013907
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_02GA-13
+
+
+#:SubBasinGroup  Upstream_02GA022
+#       90010572   90010647   90010806   90011484   90012657   90012669   90013181   90013285   90013481   90013907
+#       90013941   90014227
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_02GA022
+
+
+#:SubBasinGroup  Upstream_16018406702&02GA014
+#       90010572   90010647   90010806   90011484   90012657   90012669   90013181   90013285   90013481   90013907
+#       90013941   90014226   90014227
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_16018406702&02GA014
+
+
+#:SubBasinGroup  Upstream_02GA027
+#       90010572   90010574   90010647   90010806   90011484   90012657   90012669   90013181   90013285   90013481
+#       90013907   90013941   90014226   90014227   90014260   90014273
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_02GA027
+
+
+#:SubBasinGroup  Upstream_02GA001
+#       90010572   90010574   90010647   90010806   90011484   90012657   90012669   90013181   90013285   90013481
+#       90013907   90013941   90014226   90014227   90014260   90014272   90014273
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_02GA001
+
+
+#:SubBasinGroup  Upstream_02GA016
+#       90010572   90010574   90010647   90010806   90011484   90012657   90012669   90013181   90013285   90013481
+#       90013907   90013941   90014226   90014227   90014260   90014270   90014272   90014273
+#:EndSubBasinGroup
+#:PopulateSubBasinGroup Disabled_Subbasins With SUBBASINS NOTWITHIN Upstream_02GA016
+
+
+
+:SBGroupPropertyMultiplier Allsubbasins      MANNINGS_N 1
+:SBGroupPropertyMultiplier AllLakesubbasins RESERVOIR_CREST_WIDTH  1 
+    
+ 

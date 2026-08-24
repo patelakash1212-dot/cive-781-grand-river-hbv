@@ -1,0 +1,15 @@
+########################################################################
+:FileType          rvc ASCII Raven 4.1
+:WrittenBy         Akash Patel
+:CreationDate      Jul 2026
+#
+# Grand River below Shand Dam
+# Initial conditions file for the HBV model.
+#
+# For the initial model run all storages are initialized to zero.
+# A one-year warm-up period (2013) is used to establish realistic
+# snow, soil moisture, and groundwater storage conditions.
+########################################################################
+
+# No explicit initial conditions are specified.
+# Raven will initialize all state variables to zero.

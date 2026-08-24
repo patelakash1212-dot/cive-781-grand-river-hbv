@@ -1,0 +1,288 @@
+#----------------------------------------------
+# This is a Raven channel properties file generated
+# by BasinMaker v3.1
+#----------------------------------------------
+:ChannelProfile          Chn_ZERO_LENGTH          
+  :Bedslope             0.1234500000
+  :SurveyPoints
+    0            489.4054
+       16.0000            485.4054
+       16.2469            485.4054
+       16.2778            485.2819
+       16.3395            485.2819
+       16.3703            485.4054
+       16.6172            485.4054
+       32.6173            489.4054
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.12345000
+    16.24690000          0.12345000
+    16.37035000          0.12345000
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+#   Sub 90010574  refer to  Chn_ZERO_LENGTH 
+##############new channel ##############################
+#   Sub 90010806  refer to  Chn_ZERO_LENGTH 
+##############new channel ##############################
+#   Sub 90010572  refer to  Chn_ZERO_LENGTH 
+##############new channel ##############################
+:ChannelProfile          Chn_90011484          
+  :Bedslope             0.0030875635
+  :SurveyPoints
+    0            489.5452
+       16.0000            485.5452
+       49.9998            485.5452
+       51.9998            484.5452
+       64.9997            484.5452
+       66.9997            485.5452
+      100.9995            485.5452
+      116.9995            489.5452
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05094832
+    49.99980275          0.03986626
+    66.99970413          0.05094832
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90012669          
+  :Bedslope             0.0016450144
+  :SurveyPoints
+    0            503.6342
+       16.0000            499.6342
+       56.9432            499.6342
+       58.9432            498.6342
+       75.4148            498.6342
+       77.4148            499.6342
+      118.3580            499.6342
+      134.3580            503.6342
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05000000
+    56.94321183          0.02939227
+    77.41481774          0.05000000
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+#   Sub 90012657  refer to  Chn_ZERO_LENGTH 
+##############new channel ##############################
+:ChannelProfile          Chn_90013181          
+  :Bedslope             0.0037279635
+  :SurveyPoints
+    0            489.2018
+       16.0000            485.2018
+       64.8146            485.2018
+       66.8146            484.2018
+       87.2218            484.2018
+       89.2218            485.2018
+      138.0364            485.2018
+      154.0364            489.2018
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05068961
+    64.81456440          0.04523378
+    89.22184660          0.05068961
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90013285          
+  :Bedslope             0.0025180837
+  :SurveyPoints
+    0            492.9997
+       16.0000            488.9997
+       70.4655            488.9997
+       72.4655            487.9997
+       95.6982            487.9997
+       97.6982            488.9997
+      152.1637            488.9997
+      168.1637            492.9997
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05056282
+    70.46549541          0.03668973
+    97.69824311          0.05056282
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90013481          
+  :Bedslope             0.0083248911
+  :SurveyPoints
+    0            476.7790
+       16.0000            472.7790
+       79.6764            472.7790
+       81.6764            471.7790
+      109.5146            471.7790
+      111.5146            472.7790
+      175.1909            472.7790
+      191.1909            476.7790
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.06861026
+    79.67637123          0.06861026
+    111.51455685          0.06861026
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90013907          
+  :Bedslope             0.0034021122
+  :SurveyPoints
+    0            484.0041
+       16.0000            480.0041
+       85.6028            480.0041
+       87.6028            479.0041
+      118.4041            479.0041
+      120.4041            480.0041
+      190.0069            480.0041
+      206.0069            484.0041
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05281136
+    85.60276331          0.04199858
+    120.40414497          0.05281136
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90013941          
+  :Bedslope             0.0031147094
+  :SurveyPoints
+    0            479.0574
+       16.0000            475.0574
+       88.4791            475.0574
+       90.4791            474.0574
+      122.7186            474.0574
+      124.7186            475.0574
+      197.1977            475.0574
+      213.1977            479.0574
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05053733
+    88.47909813          0.04159803
+    124.71864720          0.05053733
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90014227          
+  :Bedslope             0.0488267687
+  :SurveyPoints
+    0            451.9976
+       16.0000            447.9976
+      101.0870            447.9976
+      103.0870            446.9976
+      141.6306            446.9976
+      143.6306            447.9976
+      228.7176            447.9976
+      244.7176            451.9976
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05000000
+    101.08704310          0.04064531
+    143.63056465          0.05000000
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90014226          
+  :Bedslope             0.0032523199
+  :SurveyPoints
+    0            470.8357
+       16.0000            466.8357
+      101.8917            466.8357
+      103.8917            465.8357
+      142.8376            465.8357
+      144.8376            466.8357
+      230.7293            466.8357
+      246.7293            470.8357
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05000000
+    101.89171221          0.04326427
+    144.83756832          0.05000000
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90014260          
+  :Bedslope             0.0051537168
+  :SurveyPoints
+    0            475.0260
+       16.0000            471.0260
+      103.4396            471.0260
+      105.4396            470.0260
+      145.1593            470.0260
+      147.1593            471.0260
+      234.5989            471.0260
+      250.5989            475.0260
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05749434
+    103.43955449          0.05317083
+    147.15933173          0.05749434
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90014273          
+  :Bedslope             0.0033261781
+  :SurveyPoints
+    0            457.1068
+       16.0000            453.1068
+      106.6233            453.1068
+      108.6233            452.1068
+      149.9350            452.1068
+      151.9350            453.1068
+      242.5583            453.1068
+      258.5583            457.1068
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05000000
+    106.62333986          0.04381708
+    151.93500980          0.05000000
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+:ChannelProfile          Chn_90014272          
+  :Bedslope             0.0032147419
+  :SurveyPoints
+    0            463.8920
+       16.0000            459.8920
+      107.3946            459.8920
+      109.3946            458.8920
+      151.0920            458.8920
+      153.0920            459.8920
+      244.4866            459.8920
+      260.4866            463.8920
+  :EndSurveyPoints
+  :RoughnessZones
+    0          0.05000000
+    107.39464451          0.04308671
+    153.09196676          0.05000000
+  :EndRoughnessZones
+:EndChannelProfile
+
+
+##############new channel ##############################
+#   Sub 90014270  refer to  Chn_ZERO_LENGTH 
+##############new channel ##############################
+ 
