@@ -2,7 +2,7 @@
 
 # Grand River HBV Hydrologic Model
 
-### CIVE 781 · Hydrologic Modelling and Calibration Project
+### Hydrologic Modelling and Calibration Project
 
 [![Raven](https://img.shields.io/badge/Model-Raven_4.1-176B87?style=for-the-badge)](https://raven.uwaterloo.ca/)
 [![HBV-EC](https://img.shields.io/badge/Structure-HBV--EC-1B998B?style=for-the-badge)](#model-configuration)
@@ -19,7 +19,7 @@
 
 ## Project at a glance
 
-This repository contains the complete modelling workspace for a **CIVE 781** course project. It combines a Raven **HBV-EC** hydrologic model with BasinMaker-derived watershed inputs and an **OSTRICH/PADDS** calibration workflow.
+This repository contains a complete hydrologic modelling workspace. It combines a Raven **HBV-EC** model with BasinMaker-derived watershed inputs and an **OSTRICH/PADDS** calibration workflow.
 
 | Item | Project configuration |
 |---|---|
@@ -173,7 +173,6 @@ Generated outputs are retained so the completed run can be reviewed without reru
 
 ### Author
 
-**Akash Patel**  
-CIVE 781 Course Project
+**Akash Patel**
 
 </div>
