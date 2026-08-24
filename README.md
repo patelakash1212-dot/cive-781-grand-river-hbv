@@ -1,6 +1,6 @@
-# CIVE 781 - Grand River HBV Model
+# Grand River HBV Model
 
-Hydrologic modelling and calibration project for **CIVE 781**. This repository contains a Raven HBV-EC model of the Grand River watershed below Shand Dam, BasinMaker-derived spatial inputs, observed and meteorological data, model outputs, and an OSTRICH/PADDS calibration setup.
+Hydrologic modelling and calibration project. This repository contains a Raven HBV-EC model of the Grand River watershed below Shand Dam, BasinMaker-derived spatial inputs, observed and meteorological data, model outputs, and an OSTRICH/PADDS calibration setup.
 
 ## Model overview
 
